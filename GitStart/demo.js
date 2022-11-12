@@ -17,14 +17,28 @@
 //  header.style.borderBottom ='solid 3px #000'
 
 // GETELEMENTSBYCLASSNAME
-var item =document.getElementsByClassName('list-group-item');
-console.log(item);
-console.log(item[2]);
+// var item =document.getElementsByClassName('list-group-item');
+// console.log(item);
+// console.log(item[2]);
 
 
-item[2].style.backgroundColor = 'green';
-for(var i=0; i< item.length; i++)
-{
-    item[i].style.fontWeight = 'bold';
-}
+// item[2].style.backgroundColor = 'green';
+// for(var i=0; i< item.length; i++)
+// {
+//     item[i].style.fontWeight = 'bold';
+// }
 
+// GETELEMENTSBYTAGNAME
+var li = document.getElementsByTagName('li');
+console.log(li);
+console.log(li[4]);
+li[4].textContent ='Hello';
+
+
+// GETELEMENTSBYCLASSNAME 
+
+
+// var item =document.getElementsByClassName('list-group-item');
+// console.log(item);
+// console.log(item[4]);
+// item[4]
